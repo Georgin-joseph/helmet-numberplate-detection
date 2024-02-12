@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+</head>
+<body>
+    <h1>Original Image</h1>
+    <img src="{{ url_for('uploaded_file', filename=original_image) }}" alt="Original Image" style="width: 100px; height: auto;">
+    <h1>Detected Image</h1>
+
+    <h1>{{ detected_image }}</h1>
+    <img src="{{ detected_image }}" alt="Detected Image" style="width: 200px; height: auto;">
+    
+</body>
+</html>

@@ -1,0 +1,15 @@
+names:
+- Numberplate
+- bike
+- helmet
+- no_helmet
+nc: 4
+roboflow:
+  license: Public Domain
+  project: helmet_numberplate-detection
+  url: https://universe.roboflow.com/test-yho6s/helmet_numberplate-detection/dataset/1
+  version: 1
+  workspace: test-yho6s
+test: /content/Helmet_Numberplate-detection-1/test/images
+train: /content/Helmet_Numberplate-detection-1/train/images
+val: /content/Helmet_Numberplate-detection-1/valid/images
